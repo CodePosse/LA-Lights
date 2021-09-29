@@ -1,3 +1,7 @@
+# Source files
+src/Bootstrap/
+src/City Assets/
+
 # Logs
 logs
 *.log
