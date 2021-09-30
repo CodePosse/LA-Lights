@@ -1,5 +1,5 @@
 # Source files
-src/Bootstrap/
+*.zip
 src/City Assets/
 
 # Logs
