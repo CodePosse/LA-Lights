@@ -18,6 +18,8 @@
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <!-- LA City Colors -->
+    <link href="css/la-theme.css" rel="stylesheet" />
 
     <style>
       .bd-placeholder-img {
@@ -32,6 +34,12 @@
         .bd-placeholder-img-lg {
           font-size: 3.5rem;
         }
+      }
+      .swatches > div {
+        color: #fff;
+        text-shadow: 1px 1px 1px #000;
+        padding: 1px 4px;
+        border:5px solid #fff;
       }
     </style>
   </head>
@@ -283,16 +291,13 @@
           </div>
           <div class="col-md-6">
             <div class="h-100 p-5 bg-light border rounded-3">
-              <h2>Add borders</h2>
-              <p>
-                Or, keep it light and add a border for some added definition to
-                the boundaries of your content. Be sure to look under the hood
-                at the source HTML here as we've adjusted the alignment and
-                sizing of both column's content for equal-height.
-              </p>
-              <button class="btn btn-outline-secondary" type="button">
-                Example button
-              </button>
+              <h2>Colors</h2>
+              <div class="row swatches">
+                <div class="col-3 lablue1">lablue1</div>
+                <div class="col-3 lablue2">lablue2</div>
+                <div class="col-3 yellow1">yellow1</div>
+                <div class="col-3 yellow2">yellow2</div>
+              </div>
             </div>
           </div>
         </div>

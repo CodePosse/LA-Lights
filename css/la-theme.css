@@ -1,0 +1,13 @@
+:root,html,body {
+    
+    --lablue1:#1A658E;
+    --lablue2:#0F2940;
+    --yellow1:rgba(255, 255, 0, 1);
+    --yellow2:rgba(252, 214, 0, 1);
+  }
+
+
+.lablue1{background-color:var(--lablue1)}
+.lablue2{background-color:var(--lablue2)}
+.yellow1{background-color:var(--yellow1)}
+.yellow2{background-color:var(--yellow2)}
