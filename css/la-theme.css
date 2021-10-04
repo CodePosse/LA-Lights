@@ -1,5 +1,5 @@
 :root,html,body {
-    
+    font-size:16px;
     --lablue1:#1A658E;
     --lablue2:#0F2940;
     --yellow1:rgba(255, 255, 0, 1);
@@ -11,3 +11,6 @@
 .lablue2{background-color:var(--lablue2)}
 .yellow1{background-color:var(--yellow1)}
 .yellow2{background-color:var(--yellow2)}
+
+header.bg-dark{background-color: #0F2940;}
+footer a.nav-link{color:#fff}
