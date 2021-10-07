@@ -41,59 +41,79 @@
         padding: 1px 4px;
         border: 5px solid #fff;
       }
+      .video-wrapper {
+	position: relative;
+	width: 100%;
+	margin: rem-calc(0 0 54.5);
+	min-height: rem(500);
+	overflow: hidden;
+}
+.video-overlay {
+	height: 100%;
+	opacity: .8;
+	position: absolute;
+	width: 100%;
+	z-index: 2;
+}
+.video-expand {
+	color: white;
+	font-size: rem(18);
+	line-height: 1em;
+	opacity: .4;
+	position: absolute;
+	top: rem(15);
+	right: rem(15);
+	z-index: 3;}
     </style>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
   </head>
   <body>
-    <header class="pb-0 pt-2 px-0 bg-dark text-white">
-      <div class="container">
+    <header class="pb-0 pt-2 px-0 lablue2-bg text-white">
+      <div class="container-fluid">
         <div
-          class="
-            d-flex
-            flex-wrap
-            align-items-center
-            justify-content-center justify-content-lg-start
-          "
-        >
-          <a
-            href="/"
-            class="
-              d-flex
-              align-items-center
-              mb-2 mb-lg-0
-              text-white text-decoration-none
-            "
-          >
-            <svg
-              class="bi me-2"
-              width="40"
-              height="32"
-              role="img"
-              aria-label="Bootstrap"
-            >
-              <use xlink:href="#bootstrap"></use>
-            </svg>
-          </a>
-
+          class="align-items-right">
           <ul
             class="
               nav
               col-12 col-lg-auto
               me-lg-auto
               mb-2
-              justify-content-center
+              justify-content-end
               mb-md-0
             "
           >
-            <li><a href="#" class="nav-link px-2 text-secondary">Home</a></li>
-            <li><a href="#" class="nav-link px-2 text-white">Features</a></li>
-            <li><a href="#" class="nav-link px-2 text-white">Pricing</a></li>
-            <li><a href="#" class="nav-link px-2 text-white">FAQs</a></li>
-            <li><a href="#" class="nav-link px-2 text-white">About</a></li>
+            <li><a href="#" class="nav-link px-2 text-warning"><span class="badge rounded-pill bg-warning text-dark px-3">!</span> Update on Coronavirus</a></li>
+            <li><a href="#" class="nav-link px-2 text-white"><span class="badge rounded-pill bg-light text-dark px-2">311</span> City Services</a></li>
+            <li><a href="#" class="nav-link px-2 text-white"><span class="badge rounded-pill bg-light text-dark px-2">LA</span> City Directory</a></li>
+            <li><a href="#" class="nav-link px-2 text-white"><span class="badge rounded-pill bg-light text-dark px-2">&#9960;</span> Chat with CHIP</a></li>
           </ul>
         </div>
       </div>
     </header>
     <main>
+      <div class="jumbotron jumbotron-fluid bg-dark pt-5 pb-1">
+        <div class="container">
+        <header class="py-3 mb-4 row">
+          <a href="/" class="col-md-2 mb-2 mb-md-0 text-dark text-decoration-none">
+            <img src="img/LALights_LOGO-2021GLOW.png" alt="">
+          </a>    
+          <ul class="nav col-8 col-md-10 mb-2 justify-content-center mb-md-0">
+            <li><a href="#" class="nav-link px-2 link-light">NEW MARKETING PAGE</a></li>
+            <li><a href="#" class="nav-link px-2 link-light">ABOUT</a></li>
+            <li><a href="#" class="nav-link px-2 link-light">CONNECTED INFRASTRUCTURE</a></li>
+            <li><a href="#" class="nav-link px-2 link-light">RESIDENTS</a></li>
+            <li><a href="#" class="nav-link px-2 link-light">BUSINESS</a></li>
+            <li><a href="#" class="nav-link px-2 link-light">ONLINE SERVICE</a></li>
+
+          </ul>
+        </header>
+      </div>
+        <div class="container">
+          <h1 class="display-4">Fluid jumbotron</h1>
+          <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+        </div>
+      </div>
       <div class="container py-4">
         <div class="row align-items-md-stretch">
           <div class="col-md-6">
@@ -328,52 +348,52 @@
       </div>
 
       <div class="container">
-        <div class="row row-cols-1 row-cols-md-4 g-4">
+        <div class="row row-cols-1 row-cols-md-4 py-2">
         <div class="col-md-3">
-          <div class="card h-100">
-            <img src="..." class="card-img-top" alt="...">
+          <div class="card h-100 text-center pt-2 border-0">
+            <img src="img/icons/nobulb.svg" alt="no light icon"  class="card-img-top icon mx-auto"/>
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <h5 class="card-title">Report a Streetlight Out</h5>
+              <p class="card-text">You can report an existing outage or check on a prior request with your case ID.</p>
             </div>
             <div class="card-footer">
-              <small class="text-muted">Last updated 3 mins ago</small>
+              <a href="#">Learn More &gt;</a>
             </div>
           </div>
         </div>
         <div class="col-md-3">
-          <div class="card h-100">
-            <img src="..." class="card-img-top" alt="...">
+          <div class="card h-100 text-center pt-2 border-0">
+            <img src="img/icons/plug.svg" alt="power icon" class="card-img-top icon mx-auto" />
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              <h5 class="card-title">Find an EV Station</h5>
+              <p class="card-text">You can enter an address or view the map of locations.</p>
             </div>
             <div class="card-footer">
-              <small class="text-muted">Last updated 3 mins ago</small>
+              <a href="#">Learn More &gt;</a>
             </div>
           </div>
         </div>
         <div class="col-md-3">
-          <div class="card h-100">
-            <img src="..." class="card-img-top" alt="...">
+          <div class="card h-100 text-center pt-2 border-0">
+            <img src="img/icons/building.svg" alt="power icon" class="card-img-top icon mx-auto" />
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              <h5 class="card-title">Museum of Street Lighting</h5>
+              <p class="card-text">Learn the history to the future of street lighting in Los Angeles spanning from 1850 to 2025.</p>
             </div>
             <div class="card-footer">
-              <small class="text-muted">Last updated 3 mins ago</small>
+              <a href="#">Learn More &gt;</a>
             </div>
           </div>
         </div>
         <div class="col-md-3">
-          <div class="card h-100">
-            <img src="..." class="card-img-top" alt="...">
+          <div class="card h-100 text-center pt-2 border-0">
+            <img src="img/icons/megaphone.svg" alt="power icon" class="card-img-top icon mx-auto" />
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              <h5 class="card-title">What’s Happening Now</h5>
+              <p class="card-text">Get the latest news and learn about upcoming BSL events.</p>
             </div>
             <div class="card-footer">
-              <small class="text-muted">Last updated 3 mins ago</small>
+              <a href="#">Learn More &gt;</a>
             </div>
           </div>
         </div>
@@ -473,7 +493,7 @@
         <div class="col12">
           <div class="row">
            <h5> SVG </h5>
-            <img src="img/icons/plug.svg" alt="power icon" class="icon" />
+            
             <img src="img/icons/building.svg" alt="building icon" class="icon" />
             <img src="img/icons/megaphone.svg" alt="megaphone icon" class="icon" />
             <img src="img/icons/nobulb.svg" alt="no light icon" class="icon" />

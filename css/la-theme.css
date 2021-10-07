@@ -6,14 +6,18 @@
     --yellow2:rgba(252, 214, 0, 1);
   }
 
-
-.lablue1{background-color:var(--lablue1)}
-.lablue2{background-color:var(--lablue2)}
-.yellow1{background-color:var(--yellow1)}
-.yellow2{background-color:var(--yellow2)}
+.lablue1{color:var(--lablue1)}
+.lablue2{color:var(--lablue2)}
+.yellow1{color:var(--yellow1)}
+.yellow2{color:var(--yellow2)}
+.lablue1-bg{background-color:var(--lablue1)}
+.lablue2-bg{background-color:var(--lablue2)}
+.yellow1-bg{background-color:var(--yellow1)}
+.yellow2-bg{background-color:var(--yellow2)}
 
 header.bg-dark{background-color: #0F2940;}
 footer a.nav-link{color:#fff}
 footer .glyphs {width:16px;height:16px;color:#fff;padding:0;margin-right:5px}
 
 .icon {width:60px;height:60px;}
+.card-footer{background-color: #fff;;border:0;margin:2rem 0;}
