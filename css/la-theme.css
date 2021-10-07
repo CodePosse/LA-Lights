@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
 :root,html,body {
     font-size:16px;
     --lablue1:#1A658E;
     --lablue2:#0F2940;
     --yellow1:rgba(255, 255, 0, 1);
     --yellow2:rgba(252, 214, 0, 1);
+    font-family: 'Lato';
   }
 
 .lablue1{color:var(--lablue1)}
