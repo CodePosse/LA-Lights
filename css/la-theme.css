@@ -19,7 +19,8 @@
 .yellow2-bg{background-color:var(--yellow2)}
 
 header.bg-dark{background-color: #0F2940;}
-footer a.nav-link{color:#fff}
+h1,h2,h3,h4,h5,h6 {color:var(--lablue1)}
+footer a.nav-link, footer h5{color:#fff}
 footer .glyphs {width:16px;height:16px;color:#fff;padding:0;margin-right:5px}
 
 .icon {width:60px;height:60px;}
