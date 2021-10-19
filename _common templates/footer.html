@@ -1,58 +1,268 @@
-<footer class="pt-5 pb-1 bg-dark text-white">
-    <div class="container">
-        <div class="justify-content-md-between row border-bottom pb-3 mb-3">
-            <div class="col-md-5">
-                <h5>Bureau of Street Lighting</h5>
-                <ul class="nav flex-column">
-                    <li class="nav-item mb-2">
-                        <a href="#" class="nav-link p-0">
-                            <img src="/img/icons/pin.svg" class="glyphs" alt="map icon" /> 1149 S. Broadway, Suite 200 Los Angeles, CA 90015 </a>
-                    </li>
-                    <li class="nav-item mb-2">
-                        <a href="tel:12138471440" class="nav-link p-0">
-                            <img src="/img/icons/phone.svg" class="glyphs" alt="phone icon" /> (213) 847-1400 </a>
-                    </li>
-                    <li class="nav-item mb-2">
-                        <a href="/contact.html" class="nav-link p-0">
-                            <img src="/img/icons/mail.svg" class="glyphs" alt="email icon" /> Contact Us </a>
-                    </li>
-                    <li class="nav-item mb-2">
-                        <a href="ada.html" class="nav-link p-0">
-                            <img src="/img/icons/ada.svg" class="glyphs" alt="Compliance icon" /> Compliance with Americans with Disabilities Act (ADA) </a>
-                    </li>
-                </ul>
-            </div>
+<!DOCTYPE html>
+<html lang="en">
 
-            <div class="col-md-2">
-                <h5>Stay Connected</h5>
-                <ul class="nav flex-column">
-                    <li class="nav-item mb-2">
-                        <a href="https://www.lacity.org/tweets" target="_blank" class="nav-link p-0">
-                            <img src="/img/icons/hash.svg" class="glyphs" alt="icon" /> Today's Trending News </a>
-                    </li>
-                    <li class="nav-item mb-2">
-                        <a href="https://twitter.com/lalight" target="_blank" class="nav-link p-0">
-                            <img src="/img/icons/twitter.svg" class="glyphs" alt="Twitter icon" /> Twitter </a>
-                    </li>
-                    <li class="nav-item mb-2">
-                        <a href="https://www.instagram.com/lastreetlights/" target="_blank" class="nav-link p-0">
-                            <img src="/img/icons/facebook.svg" class="glyphs" alt="Facebook icon" /> Facebook </a>
-                    </li>
-                </ul>
-            </div>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="Tim Hunold, Chad Tsubaki" />
+    <meta name="generator" content="Visual Studio Code" />
+    <title>footer scratchpad</title>
 
-            <div class="col-md-5">
-                <h5>Covid 19 Information</h5>
+    <!-- Bootstrap core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- LA City Colors -->
+    <link href="/css/la-theme.css" rel="stylesheet" />
+
+    <style>
+        body {
+            background-color: aqua;
+        }
+        /*================ footer============= */
+        
+        .footer {
+            background-color: var(--color-dark);
+            color: #fff;
+        }
+        
+        .img-mt {
+            width: 15px;
+            height: 15px;
+            object-fit: contain;
+            margin-top: 5px;
+        }
+        
+        .fontsize {
+            font-size: 14px;
+            margin-bottom: 0 !important;
+        }
+        
+        @media only screen and (max-width: 992px) {
+            .footer-accordion-body.mobile {
+                max-height: 0px;
+                padding: 0;
+                visibility: hidden;
+                opacity: 0;
+                transform: translateY(-10%);
+                transform-origin: top;
+                transition: all .5s ease;
+            }
+            .footer-accordion-button {
+                border-bottom: 1px solid #dee2e6 !important;
+            }
+            .footer-accordion-body.active {
+                max-height: 500px;
+                padding: 16px 0;
+                padding-bottom: 0;
+                opacity: 1;
+                visibility: visible;
+                transform: translateY(0) !important;
+            }
+        }
+        
+        @media only screen and (max-width: 786px) {
+            .top-nav {
+                justify-content: space-between;
+            }
+            .top-nav-item p {
+                display: none;
+            }
+            .footer-accordion-body {
+                font-size: 14px;
+            }
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+
+
+
+    <footer class="pt-5 pb-1 bg-dark text-white">
+        <div class="container">
+            <div class="justify-content-md-between row border-bottom pb-3 mb-3">
+                <div class="col-md-5">
+                    <h5>Bureau of Street Lighting</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link p-0">
+                                <i class="fas fa-map-marker-alt"></i> 1149 S. Broadway, Suite 200 Los Angeles, CA 90015 </a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="tel:12138471440" class="nav-link p-0">
+                                <i class="fas fa-phone"></i> (213) 847-1400 </a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="/contact.html" class="nav-link p-0">
+                                <i class="fas fa-envelope"></i> Contact Us </a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="ada.html" class="nav-link p-0">
+                                <i class="fas fa-universal-access"></i> Compliance with Americans with Disabilities Act (ADA) </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-2">
+                    <h5>Stay Connected</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2">
+                            <a href="https://www.lacity.org/tweets" target="_blank" class="nav-link p-0">
+                                <i class="fas fa-hashtag"></i> Today's Trending News </a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="https://twitter.com/lalight" target="_blank" class="nav-link p-0">
+                                <i class="fab fa-twitter"></i> Twitter </a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="https://www.instagram.com/lastreetlights/" target="_blank" class="nav-link p-0">
+                                <i class="fab fa-facebook-f"></i> Facebook </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-5">
+                    <h5>Covid 19 Information</h5>
+                    <p>
+                        As a measure of caution in relation to COVID-19, the Bureau of Street Lighting is limiting the time that public counters are open for the public. It is recommended that all activities that can be conducted online be done that way.
+                    </p>
+                </div>
+            </div>
+            <div class="col-12 text-center pt-2">
                 <p>
-                    As a measure of caution in relation to COVID-19, the Bureau of Street Lighting is limiting the time that public counters are open for the public. It is recommended that all activities that can be conducted online be done that way.
+                    &copy; Copyright 2021 City of Los Angeles Public Works, Bureau of Street Lighting. All rights reserved.
                 </p>
             </div>
         </div>
-        <div class="col-12 text-center pt-2">
-            <p>
-                &copy; Copyright 2021 City of Los Angeles Public Works, Bureau of Street Lighting. All rights reserved.
-            </p>
+    </footer>
+
+
+    <section class="footer pt-5 pb-3">
+
+        <div class="container">
+            <div class="row gap-5 px-4 px-lg-0">
+                <div class="col-12 col-lg-4 footer-accordion-item">
+                    <button class="footer-accordion-button  bg-transparent fw-500 d-flex justify-content-between p-2 border-0 text-white w-100">
+            Bureau of Street Lighting
+            <i class="uil uil-angle-up fs-4 d-block d-lg-none"></i>
+          </button>
+
+                    <!-- ____[dropdown strat here]______ -->
+                    <div class="footer-accordion-body mobile active">
+                        <div class="d-flex gap-3">
+                            <img src="/img/icons/pin.svg" alt="location pin" class="img-mt">
+                            <p class="">
+                                1149 S. Broadway, Suite 200 Los Angeles, CA 90015
+                            </p>
+                        </div>
+                        <div class="d-flex gap-3">
+                            <img src="/img/icons/phone.svg" alt="phone" class="img-mt">
+                            <p class="">(213) 847-1400</p>
+                        </div>
+                        <div class="d-flex gap-3">
+                            <img src="/img/icons/mail.svg" alt="phone" class="img-mt">
+                            <p class="">Contact Us</p>
+                        </div>
+                        <div class="d-flex gap-3">
+                            <img src="/img/icons/ada.svg" alt="phone" class="img-mt">
+                            <p class="">
+                                Compliance with Americans with Disabilities Act (ADA)
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- ____[second column]______ -->
+                <div class="col-12 col-lg-2">
+                    <button class="
+                bg-transparent
+                fw-500
+                d-flex
+                justify-content-between
+                p-2
+                border-0
+                text-white
+                w-100
+                footer-accordion-button
+              ">
+            Stay Connected
+            <i class="uil uil-angle-up fs-4 d-block d-lg-none"></i>
+          </button>
+                    <!-- ____[dropdown strat here]______ -->
+
+                    <div class="footer-accordion-body active mobile">
+                        <div class="d-flex gap-3">
+                            <img src="/img/icons/hash.svg" alt="location pin" class="img-mt">
+                            <p class="">Today’s Trending News</p>
+                        </div>
+                        <div class="d-flex gap-3">
+                            <img src="/img/icons/twitter.svg" alt="phone" class="img-mt">
+                            <p class="">Twitter</p>
+                        </div>
+                        <div class="d-flex gap-3">
+                            <img src="/img/icons/facebook.svg" alt="phone" class="img-mt">
+                            <p class="">Facebook</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- ____[3rd column]______ -->
+                <div class="col-12 col-lg-5">
+                    <button class="
+                bg-transparent
+                fw-500
+                d-flex
+                justify-content-between
+                p-2
+                border-0
+                text-white
+                w-100
+                footer-accordion-button
+              ">
+            COVID-19 Message
+            <i class="uil uil-angle-up fs-4 d-block d-lg-none"></i>
+          </button>
+                    <!-- ____[dropdown strat here]______ -->
+                    <div class="footer-accordion-body active mobile">
+                        <div class="d-flex gap-3">
+                            <p class="">
+                                As a measure of caution in relation to COVID-19, the Bureau of Street Lighting is limiting the time that public counters are open for the public. It is recommended that all activities that can be conducted online be done that way.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ____[footer bottom]______ -->
+            <div class="mt-5">
+                <p class="text-white text-center fw-bold fontsize border-top pt-4">
+                    © Copyright 2021 City of Los Angeles Public Works, Bureau of Street Lighting. All rights reserved.
+                </p>
+            </div>
         </div>
-    </div>
-</footer>
-<script src="/js/bootstrap.min.js"></script>
+    </section>
+
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script>
+        const footerBtns = document.querySelectorAll('.footer-accordion-button');
+        const footerBody = document.querySelectorAll('.footer-accordion-body');
+        const footerIcons = document.querySelectorAll(".footer-accordion-button .uil");
+
+        footerBtns.forEach((el, i) => {
+
+            el.addEventListener('click', function() {
+                if (window.innerWidth < 992) {
+                    footerBody[i].classList.toggle('active');
+                    footerIcons[i].classList.toggle('uil-angle-down')
+                    footerIcons[i].classList.toggle('uil-angle-up')
+                } else {}
+            });
+        })
+        console.log(
+            "hi"
+        )
+    </script>
+</body>
+
+</html>

@@ -57,12 +57,8 @@
         color: #fff
     }
     
-    footer .glyphs {
-        width: 16px;
-        height: 16px;
-        color: #fff;
-        padding: 0;
-        margin-right: 5px
+    footer i {
+        margin-right: 10px
     }
     
     .icon {
@@ -83,4 +79,8 @@
     
     nav {
         text-transform: capitalize;
+    }
+    
+    nav ul.navbar-nav>li {
+        font-weight: bold;
     }
