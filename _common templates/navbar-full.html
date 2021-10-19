@@ -10,72 +10,92 @@
     <title>LA BSL scratchpad</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/css/bootstrap.min.css" rel="stylesheet" />
     <!-- LA City Colors -->
-    <link href="css/la-theme.css" rel="stylesheet" />
+    <link href="/css/la-theme.css" rel="stylesheet" />
 
     <style>
-        .bd-placeholder-img {
-            font-size: 1.125rem;
-            text-anchor: middle;
-            -webkit-user-select: none;
-            -moz-user-select: none;
-            user-select: none;
-        }
-        
-        @media (min-width: 768px) {
-            .bd-placeholder-img-lg {
-                font-size: 3.5rem;
-            }
-        }
-        
-        .swatches>div {
-            color: #fff;
-            text-shadow: 1px 1px 1px #000;
-            padding: 1px 4px;
-            border: 5px solid #fff;
-        }
+
     </style>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
 </head>
 
 <body>
-
-
-
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Fifth navbar example">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Expand at lg</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-            <div class="collapse navbar-collapse" id="navbarsExample05">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled">Disabled</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
-                        <ul class="dropdown-menu" aria-labelledby="dropdown05">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+    <div class="container">
+        <header class="py-3 mb-4 row">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid px-0">
+                    <a class="navbar-brand" href="/"><img src="img/LALights_LOGO-2021GLOW.png" alt="LA Lights logo"> <span class="invisible">Home Page</span></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                    <div class="collapse navbar-collapse align-self-baseline" id="navbarSupportedContent">
+                        <ul class="w-100 navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-around lablue1">
+                            <li class="nav-item"><a class="nav-link" href="#">OUR FUTURE</a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">ABOUT</a>
+                                <ul class="dropdown-menu" aria-labelledby="aboutDropdown">
+                                    <li class="nav-item"><a class="dropdown-item" href="#">leadership</a></li>
+                                    <li class="nav-item"><a class="dropdown-item" href="#">administration</a></li>
+                                    <li class="nav-item"><a class="dropdown-item" href="#">history</a></li>
+                                    <li class="nav-item"><a class="dropdown-item" href="#">la lights in news</a></li>
+                                    <li class="nav-item"><a class="dropdown-item" href="#">awards</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">CONNECTED INFRASTRUCTURE</a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li class="nav-item"><a class="dropdown-item" href="#">smart lighting network</a></li>
+                                    <li class="nav-item"><a class="dropdown-item" href="#">led program</a></li>
+                                    <li class="nav-item"><a class="dropdown-item" href="#">special projects</a></li>
+                                    <li class="nav-item"><a class="dropdown-item" href="#">smart city portfolio</a></li>
+                                    <li class="nav-item"><a class="dropdown-item" href="#">connect city</a></li>
+                                    <li class="nav-item"><a class="dropdown-item" href="#">sensor technologies</a></li>
+                                    <li class="nav-item"><a class="dropdown-item" href="#">safety solutions</a></li>
+                                    <li class="nav-item"><a class="dropdown-item" href="#">smart poles</a></li>
+                                    <li class="nav-item"><a class="dropdown-item" href="#">sustainability practices</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">RESIDENTS</a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li class="nav-item"><a class="dropdown-item" href="#">how to get streetlight</a></li>
+                                    <li class="nav-item"><a class="dropdown-item" href="#">streetlight outage</a></li>
+                                    <li class="nav-item"><a class="dropdown-item" href="#">Community impact</a></li>
+                                    <li class="nav-item"><a class="dropdown-item" href="/residents/museum.html">museum</a></li>
+                                    <li class="nav-item"><a class="dropdown-item" href="#">prop 218</a></li>
+                                    <li class="nav-item"><a class="dropdown-item" href="#">Resident faq</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">BUSINESS</a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li class="nav-item"><a class="dropdown-item" href="#">Permits: Business Services</a></li>
+                                    <li class="nav-item"><a class="dropdown-item" href="#">Streetlight pole attachments</a></li>
+                                    <li class="nav-item"><a class="dropdown-item" href="#">Approved pole manufacturers</a></li>
+                                    <li class="nav-item"><a class="dropdown-item" href="#">Contractor & vendor resources</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">ONLINE SERVICES</a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li class="nav-item"><a class="dropdown-item" href="#">forms</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <img src="/img/icons/search.svg" alt="Search">
+                                    <span class="invisible">search</span>
+                                </a>
+                            </li>
                         </ul>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-
+                    </div>
+                </div>
+            </nav>
+        </header>
+    </div>
+    <script src="/js/bootstrap.min.js"></script>
 </body>
 
 </html>
