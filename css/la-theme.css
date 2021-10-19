@@ -1,85 +1,86 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
-:root,
-html,
-body {
-    font-size: 16px;
-    --lablue1: #1A658E;
-    --lablue2: #0F2940;
-    --yellow1: rgba(255, 255, 0, 1);
-    --yellow2: rgba(252, 214, 0, 1);
-    font-family: 'Lato';
-}
-
-html,
-body {
-    min-height: 100%;
-}
-
-.lablue1 {
-    color: var(--lablue1)
-}
-
-.lablue2 {
-    color: var(--lablue2)
-}
-
-.yellow1 {
-    color: var(--yellow1)
-}
-
-.yellow2 {
-    color: var(--yellow2)
-}
-
-.lablue1-bg {
-    background-color: var(--lablue1)
-}
-
-.lablue2-bg {
-    background-color: var(--lablue2)
-}
-
-.yellow1-bg {
-    background-color: var(--yellow1)
-}
-
-.yellow2-bg {
-    background-color: var(--yellow2)
-}
-
-header.bg-dark {
-    background-color: #0F2940;
-}
-
-footer a.nav-link,
-footer h5 {
-    color: #fff
-}
-
-footer .glyphs {
-    width: 16px;
-    height: 16px;
-    color: #fff;
-    padding: 0;
-    margin-right: 5px
-}
-
-.icon {
-    width: 60px;
-    height: 60px;
-}
-
-.card-footer {
-    background-color: #fff;
-    ;
-    border: 0;
-    margin: 2rem 0;
-}
-
-.card-title {
-    font-weight: bold
-}
-
-nav {
-    text-transform: capitalize;
-}
+    @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+     :root,
+    html,
+    body {
+        font-size: 16px;
+        --lablue1: #1A658E;
+        --lablue2: #0F2940;
+        --yellow1: rgba(255, 255, 0, 1);
+        --yellow2: rgba(252, 214, 0, 1);
+        font-family: 'Lato';
+    }
+    
+    html,
+    body {
+        min-height: 100%;
+    }
+    
+    .lablue1,
+    nav .lablue1 a.nav-link {
+        color: var(--lablue1)
+    }
+    
+    .lablue2 {
+        color: var(--lablue2)
+    }
+    
+    .yellow1 {
+        color: var(--yellow1)
+    }
+    
+    .yellow2 {
+        color: var(--yellow2)
+    }
+    
+    .lablue1-bg {
+        background-color: var(--lablue1)
+    }
+    
+    .lablue2-bg {
+        background-color: var(--lablue2)
+    }
+    
+    .yellow1-bg {
+        background-color: var(--yellow1)
+    }
+    
+    .yellow2-bg {
+        background-color: var(--yellow2)
+    }
+    
+    header.bg-dark {
+        background-color: #0F2940;
+    }
+    
+    footer a.nav-link,
+    footer h5 {
+        color: #fff
+    }
+    
+    footer .glyphs {
+        width: 16px;
+        height: 16px;
+        color: #fff;
+        padding: 0;
+        margin-right: 5px
+    }
+    
+    .icon {
+        width: 60px;
+        height: 60px;
+    }
+    
+    .card-footer {
+        background-color: #fff;
+        ;
+        border: 0;
+        margin: 2rem 0;
+    }
+    
+    .card-title {
+        font-weight: bold
+    }
+    
+    nav {
+        text-transform: capitalize;
+    }
