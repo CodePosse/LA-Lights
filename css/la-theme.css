@@ -16,7 +16,7 @@
     }
     
     .lablue1,
-    nav .lablue1 a.nav-link {
+    nav.navbar ul.lablue1 a.nav-link {
         color: var(--lablue1)
     }
     
