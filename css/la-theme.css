@@ -74,7 +74,8 @@
     }
     
     .card-title {
-        font-weight: bold
+        font-weight: bold;
+        color: var(--lablue1)
     }
     
     nav {
