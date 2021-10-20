@@ -61,6 +61,10 @@
         margin-right: 10px
     }
     
+    .breadcrumb a {
+        color: var(--lablue1)
+    }
+    
     .icon {
         width: 60px;
         height: 60px;
