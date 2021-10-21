@@ -48,6 +48,15 @@
         background-color: var(--yellow2)
     }
     
+    .bg-light {
+        background-color: #e8ecef !important;
+    }
+    
+    .btn-info {
+        background-color: #0f6c7a;
+        border-color: #0f6c7a
+    }
+    
     header.bg-dark {
         background-color: #0F2940;
     }
