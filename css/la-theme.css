@@ -16,7 +16,8 @@
     }
     
     .lablue1,
-    nav.navbar ul.lablue1 a.nav-link {
+    nav.navbar ul.lablue1 a.nav-link,
+    .bg-light a:not(.btn) {
         color: var(--lablue1)
     }
     
