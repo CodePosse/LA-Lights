@@ -1,5 +1,5 @@
 # Source files
-*.zip
+src/**/*.zip
 
 # Logs
 logs
