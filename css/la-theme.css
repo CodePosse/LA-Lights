@@ -87,13 +87,11 @@
     
     .card-footer {
         background-color: #fff;
-        ;
         border: 0;
         margin: 2rem 0;
     }
     
     .card-title {
-        font-weight: bold;
         color: var(--lablue1)
     }
     
