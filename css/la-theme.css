@@ -111,11 +111,10 @@
         background: red;
     }
     /* has download attribute */
-    
-    a[download] {
+    /*     a[download] {
         color: green;
         background: silver;
-    }
+    } */
     /* pdf links */
     
     a[href$=".pdf"] {
