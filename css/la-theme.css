@@ -102,3 +102,23 @@
     nav ul.navbar-nav>li {
         font-weight: bold;
     }
+    /** DEBUGGING **/
+    /* undefined link */
+    
+    a[href*="#"] {
+        text-decoration: line-through;
+        color: yellow;
+        background: red;
+    }
+    /* has download attribute */
+    
+    a[download] {
+        color: green;
+        background: silver;
+    }
+    /* pdf links */
+    
+    a[href$=".pdf"] {
+        color: purple;
+        background: pink;
+    }
