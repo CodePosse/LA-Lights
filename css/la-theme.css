@@ -105,7 +105,7 @@
     /** DEBUGGING **/
     /* undefined link */
     
-    a[href*="#"] {
+    div :not(header) a[href*="#"] {
         text-decoration: line-through;
         color: yellow;
         background: red;
