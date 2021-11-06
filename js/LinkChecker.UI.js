@@ -5,8 +5,8 @@
     var $container = $("<div id='linkChecker'></div>"),
         viewModel = {
             total: 0,
-            progress : 0,
-            broken : []
+            progress: 0,
+            broken: []
         },
         events = LinkChecker.events;
 
@@ -18,7 +18,7 @@
         /**
          * responsible for setting up the UI
          */
-        function drawUI (count) {
+        function drawUI(count) {
             var $progress = $("<div class='module'></div>");
 
             $container.append("<h1 class='module'>Link Checker</h1>");
@@ -49,16 +49,16 @@
                     prop;
 
                 //iterate over each rule
-                for(rule in rules) {
-                    if(rules.hasOwnProperty(rule)) {
+                for (rule in rules) {
+                    if (rules.hasOwnProperty(rule)) {
                         current = rules[rule];
 
                         //open rule block
                         out += rule + "{";
 
                         //loop over properties
-                        for(prop in current) {
-                            if(current.hasOwnProperty(prop)) {
+                        for (prop in current) {
+                            if (current.hasOwnProperty(prop)) {
                                 out += prop + ":" + current[prop] + ";";
                             }
                         }
@@ -82,10 +82,9 @@
 
                 style.type = "text/css";
 
-                if(style.styleSheet) {
+                if (style.styleSheet) {
                     style.styleSheet.cssText = rules.nodeValue;
-                }
-                else {
+                } else {
                     style.appendChild(rules);
                 }
 
@@ -109,21 +108,19 @@
             $progressBar = $container.find(".progress");
 
         viewModel.progress++;
-        if(link.broken) {
+        if (link.broken) {
             viewModel.broken.push(link);
             $(link.elem).addClass("broken-link").css({
-                "font-weight" : "bold"
+                "font-weight": "bold",
+                color: "gold",
+                background: "red"
             });
+        } else {
+            $(link.elem).css({});
         }
-        else {
-            $(link.elem).css({
-                color: "green",
-                "font-weight" : "bold"
-            });
-        }
-        
+
         $complete.text(viewModel.progress);
-        var percentage = ((viewModel.progress / viewModel.total)*100) + "%";
+        var percentage = ((viewModel.progress / viewModel.total) * 100) + "%";
         $progressBar.css("width", percentage);
 
     }
@@ -139,16 +136,16 @@
 
         $container.find(".progress").css("width", "100%");
         $container.find(".complete").text($total.text());
-        
+
         $wrapper.append("<span>Broken links</span>");
         $wrapper.append("<span class='tally'>(" + viewModel.broken.length + ")</span>");
 
-        if(viewModel.broken.length === 0) {
+        if (viewModel.broken.length === 0) {
             $container.append($wrapper);
             return;
         }
 
-        for(var i = 0; i < viewModel.broken.length; i++) {
+        for (var i = 0; i < viewModel.broken.length; i++) {
             $result = $("<li></li>").text(viewModel.broken[i].uri);
             $results.append($result);
         }
@@ -163,8 +160,12 @@
         processor.on(events.started, startedEvent);
         processor.on(events.checked, checkedEvent);
         processor.on(events.completed, completedEvent);
-        
+
         processor.go();
     });
 
 }(jQuery, window, document, LinkChecker));
+$("a").filter(function() {
+    return this.hostname && this.hostname !== location.hostname;
+}).addClass('external');
+console.log('link checker loaded')
