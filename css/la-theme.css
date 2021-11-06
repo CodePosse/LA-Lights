@@ -105,9 +105,8 @@
     /** DEBUGGING **/
     /* undefined link */
     
-    div :not(header) a[href*="#"] {
-        text-decoration: line-through;
-        color: yellow;
+    a[href*="#"] {
+        color: white;
         background: red;
     }
     /* has download attribute */
@@ -118,6 +117,11 @@
     /* pdf links */
     
     a[href$=".pdf"] {
-        color: purple;
+        color: black;
         background: pink;
+    }
+    
+    a.external {
+        color: white;
+        background: blue;
     }
