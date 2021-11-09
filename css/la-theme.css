@@ -115,13 +115,3 @@
         background: silver;
     } */
     /* pdf links */
-    
-    a[href$=".pdf"] {
-        color: black;
-        background: pink;
-    }
-    
-    a.external {
-        color: white;
-        background: blue;
-    }
