@@ -218,11 +218,11 @@
                         <p>The Bureau’s proactive LED Conversion Program has saved millions in energy costs and continues to generate cost savings; however, the Street Lighting District Assessment model, which funds Bureau operations, is unsustainable for
                             the future. The tax assessments for the City’s Street Lighting District Assessment have remained the same since 1996, in compliance with Proposition 218. The Bureau is planning for a citywide ballot to update over 550,000 frozen
                             parcels to current costs in order to properly maintain the City’s system of 223,000 streetlights. The status of a citywide Ballot remains pending.</p>
-                        <p class="my-3"><a href="#" class="btn btn-primary me-md-2">View Phase 1</a>
-
-                            <a href="#" class="btn btn-primary me-md-2">View Phase 2</a>
-
-                            <a href="#" class="btn btn-primary me-md-2">View Phase 3</a></p>
+                        <p class="my-3">
+                            <a data-bs-toggle="modal" href="#PhaseOne" role="button" title="Phase One Map" class="btn btn-primary me-md-2">View Phase 1</a>
+                            <a data-bs-toggle="modal" href="#PhaseTwo" role="button" title="Phase Two Map" class="btn btn-primary me-md-2">View Phase 2</a>
+                            <a data-bs-toggle="modal" href="#PhaseThree" role="button" title="Phase Three Map" class="btn btn-primary me-md-2">View Phase 3</a>
+                        </p>
                     </div>
                 </div>
                 <div class="row">
@@ -491,6 +491,49 @@
             </div>
         </div>
     </footer>
+
+    <!-- Phase One Modal -->
+    <div class="modal fade" id="PhaseOne" tabindex="-1" aria-labelledby="PhaseOneLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Phase One</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="/img/resident/phase1_bg.png" alt="map" role="presentation" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Phase Two Modal -->
+    <div class="modal fade" id="PhaseTwo" tabindex="-1" aria-labelledby="PhaseTwoLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Phase Two</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="/img/resident/phase2_bg.png" alt="map" role="presentation" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Phase Three Modal -->
+    <div class="modal fade" id="PhaseThree" tabindex="-1" aria-labelledby="PhaseThreeLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Phase Three</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="/img/resident/phase3_bg.png" alt="map" role="presentation" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="/js/LinkChecker.jsx"></script>
 
