@@ -58,6 +58,22 @@
         border-color: #0f6c7a
     }
     
+    .jumbotron.scaled {
+        min-height: 500px !important;
+        max-height: 75vh !important;
+    }
+    
+    .jumbotron nav .navbar-nav>.nav-item>a.nav-link {
+        color: #fff;
+    }
+    
+    .bg-home {
+        background-image: url(/img/home/hero.jpg);
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
     header.bg-dark {
         background-color: #0F2940;
     }
