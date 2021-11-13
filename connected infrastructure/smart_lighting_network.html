@@ -182,7 +182,14 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li class="nav-item">
+                                
+<li class="nav-item">
+<a class="nav-link" data-bs-toggle="modal" href="#googleTranslate" role="button" aria-label="Translate">
+<i class="fas fa-language"></i>
+<span class="invisible">Translate</span>
+</a>
+</li>
+<li class="nav-item">
                                     <a class="nav-link" href="/search/" aria-label="Search">
                                         <i class="fas fa-search"></i>
                                         <span class="invisible">search</span>
@@ -311,8 +318,30 @@
     <script src="/js/bootstrap.min.js"></script>
     
 
-    <script src="https://chipweb.azurewebsites.net/bot/Chip.min.js?id=239807732;env=Prod"></script>
+    <!--<script src="https://chipweb.azurewebsites.net/bot/Chip.min.js?id=239807732;env=Prod"></script>-->
 
+
+
+<!-- Translate Modal -->
+<div class="modal fade" id="googleTranslate" tabindex="-1" aria-labelledby="googleTranslateLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title lablue1" id="googleTranslateLabel">Google Translate</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body lablue2">
+        <div id="google_translate_element"></div>
+      </div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+}
+</script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </body>
 
 </html>
