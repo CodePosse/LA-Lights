@@ -3,6 +3,7 @@ src/**/*.zip
 src/**/*.html
 src/Bootstrap
 **/Bootstrap
+src/Bootstrap/**/*
 src/simplelightbox-master
 
 # Logs
