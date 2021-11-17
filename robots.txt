@@ -3,3 +3,4 @@ Disallow: /pdf/
 Disallow: /src/
 Disallow: /css/
 Disallow: /js/
+Disallow: /img/
