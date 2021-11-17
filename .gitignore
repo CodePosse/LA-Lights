@@ -1,5 +1,7 @@
 # Source files
 src/**/*.zip
+src/Bootstrap
+src/simplelightbox-master
 
 # Logs
 logs
