@@ -290,7 +290,7 @@
                                 <i class="fas fa-envelope"></i> Contact Us </a>
                         </li>
                         <li class="nav-item mb-2">
-                            <a href="#" class="nav-link p-0">
+                            <a data-bs-toggle="modal" href="#ADAModal" role="button" title="" class="nav-link p-0">
                                 <i class="fas fa-universal-access"></i> Compliance with Americans with Disabilities Act (ADA) </a>
                         </li>
                     </ul>
@@ -368,6 +368,25 @@ function googleTranslateElementInit() {
 }
 </script>
 <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<script type="text/javascript" src="/js/LinkChecker.js"></script>
+<script type="text/javascript" src="/js/LinkChecker.UI.js"></script>
+<!-- ADA Modal -->
+<div class="modal fade" id="ADAModal" tabindex="-1" aria-labelledby="ADAModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title lablue1" id="ADAModalLabel">Americans with Disabilities Act</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>It is the policy of the City of Los Angeles to provide access to its programs and services for persons with disabilities in accordance with Title II of the Americans with Disabilities Act (ADA) of 1990, as amended. As a covered entity under Title II of the Americans with Disabilities Act, the City of Los Angeles does not discriminate on the basis of disability and, upon request, will provide reasonable accommodation to ensure equal access to its programs, services and activities.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 </body>
 
 </html>
