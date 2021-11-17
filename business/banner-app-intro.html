@@ -7,7 +7,7 @@
     <meta name="description" content="" />
     <meta name="author" content="Tim Hunold, Chad Tsubaki" />
     <meta name="generator" content="Visual Studio Code" />
-    <title>Smart Poles: LA Bureau of Street Lighting</title>
+    <title>Banner Permit Application: LA Bureau of Street Lighting</title>
 
     <!-- Bootstrap core CSS -->
     <link href="/css/bootstrap.min.css" rel="stylesheet" />
@@ -190,14 +190,14 @@
                                         </li>
                                     </ul>
                                 </li>
-                                
-<li class="nav-item">
-<a class="nav-link" data-bs-toggle="modal" href="#googleTranslate" role="button" aria-label="Translate">
-<i class="fas fa-language"></i>
-<span class="visually-hidden">Translate</span>
-</a>
-</li>
-<li class="nav-item">
+
+                                <li class="nav-item">
+                                    <a class="nav-link" data-bs-toggle="modal" href="#googleTranslate" role="button" aria-label="Translate">
+                                        <i class="fas fa-language"></i>
+                                        <span class="visually-hidden">Translate</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
                                     <a class="nav-link" href="/search/" aria-label="Search">
                                         <i class="fas fa-search"></i>
                                         <span class="invisible">search</span>
@@ -213,41 +213,37 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h1 class="lablue1">Smart Poles</h1>
+                    <h1 class="lablue1">Banner Permit Application</h1>
                 </div>
             </div>
         </div>
         <div class="container-fluid py-3 mt-md-3 mb-md-5">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-5 pe-md-5">
-                        <p>Street Lighting is piloting a smart hub pole that offers extensive services including, Wi-Fi, USB Ports, Speaker System, or CCTV. Currently, there is one Smart Hub Pole live for testing.</p>
-                        <p class="mb-0">Smart Pole Features May include:</p>
+                    <div class="col-md-8">
+                        <p>This reservation system is intended solely for use by authorized banner companies in the City of Los Angeles. Contact the Bureau of Street Lighting Community Services Division at (213) 847-1394 to request access.</p>
                         <ul>
-                            <li>5G </li>
-                            <li>Air Quality Sensors </li>
-                            <li>Digital Banner </li>
-                            <li>Multi-color Lighting </li>
-                            <li>Pedestrian & Mobility Counter </li>
-                            <li>USB </li>
-                            <li>Wi-Fi</li>
+                            <li>
+                                <a href="https://bslbannerpermit.lacity.org/">Online banner permit reservation system for the City of Los Angeles</a> </li>
+                            <li>
+                                <a href="/pdf/downloads/business/BannerFAQ.pdf" title="PDF file" download>Banner permit frequently asked questions <i class="far fa-file-pdf"></i></a>
+                            </li>
+                            <li>
+                                <a href="/pdf/downloads/business/BannerOrd.pdf" title="PDF file" download>Banner permit ordinance <i class="far fa-file-pdf"></i></a>
+                            </li>
                         </ul>
-                        <img src="/img/connected/smart pole.png" alt="Smart Poles" class="img-fluid w-100" role="presentation">
-                    </div>
-                    <div class="col-md-2"><img src="/img/connected/smart pole scale.png" alt="Smart Pole Compared to human" class="img-fluid h-100" role="presentation"></div>
-                    <div class="col-md-5">
-                        <h2 class="card-title fs-4">Streetlight Digital Banners</h2>
-                        <p>Currently, streetlights can mount banners and art via our permitting system. Street Lighting will pilot Digital Banners to provide the public with real-time information regarding events or during an emergency event.</p>
                     </div>
                 </div>
             </div>
         </div>
+
+
         <div class="container mb-5">
             <nav style="--bs-breadcrumb-divider: '/'; " aria-label="breadcrumb" class="border rounded-3 bg-light pt-3 pb-0 px-3 my-2">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="/">Home</a></li>
-                    <li class="breadcrumb-item"><a href="./">Connected Infrastructure</a></li>
-                    <li class="breadcrumb-item">Smart Poles</li>
+                    <li class="breadcrumb-item"><a href="./">Business</a></li>
+                    <li class="breadcrumb-item">Banner Permit Application</li>
                 </ol>
             </nav>
         </div>
@@ -323,45 +319,49 @@
 
 
 
-<!-- Translate Modal -->
-<div class="modal fade" id="googleTranslate" tabindex="-1" aria-labelledby="googleTranslateLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title lablue1" id="googleTranslateLabel">Google Translate</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body lablue2">
-        <div id="google_translate_element"></div>
-      </div>
+    <!-- Translate Modal -->
+    <div class="modal fade" id="googleTranslate" tabindex="-1" aria-labelledby="googleTranslateLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title lablue1" id="googleTranslateLabel">Google Translate</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body lablue2">
+                    <div id="google_translate_element"></div>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-</div>
-<script type="text/javascript">
-function googleTranslateElementInit() {
-  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
-}
-</script>
-<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-<script type="text/javascript" src="/js/LinkChecker.js"></script>
-<script type="text/javascript" src="/js/LinkChecker.UI.js"></script>
-<!-- ADA Modal -->
-<div class="modal fade" id="ADAModal" tabindex="-1" aria-labelledby="ADAModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title lablue1" id="ADAModalLabel">Americans with Disabilities Act</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <p>It is the policy of the City of Los Angeles to provide access to its programs and services for persons with disabilities in accordance with Title II of the Americans with Disabilities Act (ADA) of 1990, as amended. As a covered entity under Title II of the Americans with Disabilities Act, the City of Los Angeles does not discriminate on the basis of disability and, upon request, will provide reasonable accommodation to ensure equal access to its programs, services and activities.</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
-      </div>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'en'
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script type="text/javascript" src="/js/LinkChecker.js"></script>
+    <script type="text/javascript" src="/js/LinkChecker.UI.js"></script>
+    <!-- ADA Modal -->
+    <div class="modal fade" id="ADAModal" tabindex="-1" aria-labelledby="ADAModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title lablue1" id="ADAModalLabel">Americans with Disabilities Act</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>It is the policy of the City of Los Angeles to provide access to its programs and services for persons with disabilities in accordance with Title II of the Americans with Disabilities Act (ADA) of 1990, as amended. As a covered entity
+                        under Title II of the Americans with Disabilities Act, the City of Los Angeles does not discriminate on the basis of disability and, upon request, will provide reasonable accommodation to ensure equal access to its programs, services
+                        and activities.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-</div>
 </body>
 
 </html>

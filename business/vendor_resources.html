@@ -190,14 +190,14 @@
                                         </li>
                                     </ul>
                                 </li>
-                                
-<li class="nav-item">
-<a class="nav-link" data-bs-toggle="modal" href="#googleTranslate" role="button" aria-label="Translate">
-<i class="fas fa-language"></i>
-<span class="visually-hidden">Translate</span>
-</a>
-</li>
-<li class="nav-item">
+
+                                <li class="nav-item">
+                                    <a class="nav-link" data-bs-toggle="modal" href="#googleTranslate" role="button" aria-label="Translate">
+                                        <i class="fas fa-language"></i>
+                                        <span class="visually-hidden">Translate</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
                                     <a class="nav-link" href="/search/" aria-label="Search">
                                         <i class="fas fa-search"></i>
                                         <span class="invisible">search</span>
@@ -222,7 +222,7 @@
                 <div class="row">
                     <div class="col-md-3">
                         <img src="/img/business/motion_blur.png" alt="Blur of vehicles on street" role="img" class="img-fluid w-100">
-                        <p><a href="/banner-app-intro.html">Banner permit reservations within the City of Los Angeles </a></p>
+                        <p><a href="banner-app-intro.html">Banner permit reservations within the City of Los Angeles </a></p>
                         <p><a href="https://bslbannerpermit.lacity.org/" target="_blank">Online banner permit reservation system for the City of Los Angeles </a></p>
                     </div>
                     <div class="col-md-4">
@@ -253,7 +253,7 @@
 
                         <p><a href="/pdf/downloads/business/LED_notice_to_designers.pdf" title="PDF file" download>LED technology - notice to designers and contractors <i class="far fa-file-pdf"></i></a></p>
 
-                        <p><a href="/downloads/business/RMU_020817.htm">Remote monitoring units - notice to vendors</a></p>
+                        <p><a href="rmu.html">Remote monitoring units - notice to vendors</a></p>
 
                         <p><a href="rmu.html">Bureau requirements for remote monitoring nodes</a></p>
 
@@ -317,7 +317,7 @@
                             </a>
                         </li>
                         <li class="nav-item mb-2">
-                            <a href="#" class="nav-link p-0">
+                            <a data-bs-toggle="modal" href="#ADAModal" role="button" title="" class="nav-link p-0">
                                 <i class="fas fa-universal-access"></i> Compliance with Americans with Disabilities Act (ADA)
                             </a>
                         </li>
@@ -360,32 +360,55 @@
         </div>
     </footer>
     <script src="/js/bootstrap.min.js"></script>
-    
+
 
     <!--<script src="https://chipweb.azurewebsites.net/bot/Chip.min.js?id=239807732;env=Prod"></script>-->
 
 
 
-<!-- Translate Modal -->
-<div class="modal fade" id="googleTranslate" tabindex="-1" aria-labelledby="googleTranslateLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title lablue1" id="googleTranslateLabel">Google Translate</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body lablue2">
-        <div id="google_translate_element"></div>
-      </div>
+    <!-- Translate Modal -->
+    <div class="modal fade" id="googleTranslate" tabindex="-1" aria-labelledby="googleTranslateLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title lablue1" id="googleTranslateLabel">Google Translate</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body lablue2">
+                    <div id="google_translate_element"></div>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-</div>
-<script type="text/javascript">
-function googleTranslateElementInit() {
-  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
-}
-</script>
-<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'en'
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script type="text/javascript" src="/js/LinkChecker.js"></script>
+    <script type="text/javascript" src="/js/LinkChecker.UI.js"></script>
+    <!-- ADA Modal -->
+    <div class="modal fade" id="ADAModal" tabindex="-1" aria-labelledby="ADAModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title lablue1" id="ADAModalLabel">Americans with Disabilities Act</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>It is the policy of the City of Los Angeles to provide access to its programs and services for persons with disabilities in accordance with Title II of the Americans with Disabilities Act (ADA) of 1990, as amended. As a covered entity
+                        under Title II of the Americans with Disabilities Act, the City of Los Angeles does not discriminate on the basis of disability and, upon request, will provide reasonable accommodation to ensure equal access to its programs, services
+                        and activities.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
