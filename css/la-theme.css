@@ -96,6 +96,13 @@ footer i {
     color: var(--lablue1)
 }
 
+
+/* light box */
+
+.lb-data span.lb-number {
+    display: none !important;
+}
+
 .icon {
     width: 60px;
     height: 60px;
