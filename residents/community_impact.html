@@ -17,6 +17,8 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.css" integrity="sha512-Woz+DqWYJ51bpVk5Fv0yES/edIMXjj3Ynda+KWTIkGoynAMHrqTcDUQltbipuiaD5ymEo9520lyoVOo9jCQOCA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
 </head>
 
@@ -190,14 +192,14 @@
                                         </li>
                                     </ul>
                                 </li>
-                                
-<li class="nav-item">
-<a class="nav-link" data-bs-toggle="modal" href="#googleTranslate" role="button" aria-label="Translate">
-<i class="fas fa-language"></i>
-<span class="visually-hidden">Translate</span>
-</a>
-</li>
-<li class="nav-item">
+
+                                <li class="nav-item">
+                                    <a class="nav-link" data-bs-toggle="modal" href="#googleTranslate" role="button" aria-label="Translate">
+                                        <i class="fas fa-language"></i>
+                                        <span class="visually-hidden">Translate</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
                                     <a class="nav-link" href="/search/" aria-label="Search">
                                         <i class="fas fa-search"></i>
                                         <span class="invisible">search</span>
@@ -255,25 +257,43 @@
         <div class="container-fluid py-3 my-md-5">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-11">
+                    <div class="col-md-12">
                         <h2 class="card-title fs-3">YoMo L.A. Fall 2019</h2>
                         <p>YoMo L.A. is a three day pop up theme park of hands-on interactive experiences across science, technology, engineering, arts & design and mathematics. In 2019 there were 5,000 attendees and 160 school groups inspired to learn more
                             about careers in STEAM sectors through live shows, interactive workshops, and dozens of hands-on activities. L.A. Lights was one of 100+ exhibitors showcasing the exciting and rewarding career opportunities that are available
                             in the STEAM ecosystem.</p>
-                        <div class="bg-warning p-5 rounded"><strong>[slideshow modal coming soon]</strong></div>
+                        <div class="row mb-md-5">
+                            <div class="col-3 p-2">
+                                <a href="/img/resident/impact/Mask Group 66.png" data-lightbox="impact"><img src="/img/resident/impact/thumbs/Mask Group 66.png" alt="Community Impact 1" role="img"><span class="visually-hidden">Slideshow image</span></a>
+                            </div>
+                            <div class="col-3 p-2">
+                                <a href="/img/resident/impact/Mask Group 67.png" data-lightbox="impact"><img src="/img/resident/impact/thumbs/Mask Group 67.png" alt="Community Impact 2" role="img"><span class="visually-hidden">Slideshow image</span></a>
+                            </div>
+                            <div class="col-3 p-2">
+                                <a href="/img/resident/impact/Mask Group 68.png" data-lightbox="impact"><img src="/img/resident/impact/thumbs/Mask Group 68.png" alt="Community Impact 3" role="img"><span class="visually-hidden">Slideshow image</span></a>
+                            </div>
+                            <div class="col-3 p-2">
+                                <a href="/img/resident/impact/Mask Group 69.png" data-lightbox="impact"><img src="/img/resident/impact/thumbs/Mask Group 69.png" alt="Community Impact 4" role="img"><span class="visually-hidden">Slideshow image</span></a>
+                            </div>
+                            <div class="col-3 p-2">
+                                <a href="/img/resident/impact/Mask Group 70.png" data-lightbox="impact"><img src="/img/resident/impact/thumbs/Mask Group 70.png" alt="Community Impact 5" role="img"><span class="visually-hidden">Slideshow image</span></a>
+                            </div>
+                            <div class="col-3 p-2">
+                                <a href="/img/resident/impact/Mask Group 71.png" data-lightbox="impact"><img src="/img/resident/impact/thumbs/Mask Group 71.png" alt="Community Impact 6" role="img"><span class="visually-hidden">Slideshow image</span></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="container mb-5">
-            <nav style="--bs-breadcrumb-divider: '/';" aria-label="breadcrumb" class="border rounded-3 bg-light pt-3 pb-0 px-3 my-2">
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="/">Home</a></li>
-                    <li class="breadcrumb-item"><a href="/residents">Residents</a></li>
-                    <li class="breadcrumb-item" aria-current="page">Community Impact</li>
-                </ol>
-            </nav>
-        </div>
+            <div class="container mb-5">
+                <nav style="--bs-breadcrumb-divider: '/';" aria-label="breadcrumb" class="border rounded-3 bg-light pt-3 pb-0 px-3 my-2">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="/">Home</a></li>
+                        <li class="breadcrumb-item"><a href="/residents">Residents</a></li>
+                        <li class="breadcrumb-item" aria-current="page">Community Impact</li>
+                    </ol>
+                </nav>
+            </div>
     </main>
     <footer class="pt-5 pb-1 bg-dark text-white">
         <div class="container">
@@ -346,44 +366,53 @@
 
 
 
-<!-- Translate Modal -->
-<div class="modal fade" id="googleTranslate" tabindex="-1" aria-labelledby="googleTranslateLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title lablue1" id="googleTranslateLabel">Google Translate</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body lablue2">
-        <div id="google_translate_element"></div>
-      </div>
+    <!-- Translate Modal -->
+    <div class="modal fade" id="googleTranslate" tabindex="-1" aria-labelledby="googleTranslateLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title lablue1" id="googleTranslateLabel">Google Translate</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body lablue2">
+                    <div id="google_translate_element"></div>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-</div>
-<script type="text/javascript">
-function googleTranslateElementInit() {
-  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
-}
-</script>
-<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'en'
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
-<!-- ADA Modal -->
-<div class="modal fade" id="ADAModal" tabindex="-1" aria-labelledby="ADAModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title lablue1" id="ADAModalLabel">Americans with Disabilities Act</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <p>It is the policy of the City of Los Angeles to provide access to its programs and services for persons with disabilities in accordance with Title II of the Americans with Disabilities Act (ADA) of 1990, as amended. As a covered entity under Title II of the Americans with Disabilities Act, the City of Los Angeles does not discriminate on the basis of disability and, upon request, will provide reasonable accommodation to ensure equal access to its programs, services and activities.</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
-      </div>
+    <!-- ADA Modal -->
+    <div class="modal fade" id="ADAModal" tabindex="-1" aria-labelledby="ADAModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title lablue1" id="ADAModalLabel">Americans with Disabilities Act</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>It is the policy of the City of Los Angeles to provide access to its programs and services for persons with disabilities in accordance with Title II of the Americans with Disabilities Act (ADA) of 1990, as amended. As a covered entity
+                        under Title II of the Americans with Disabilities Act, the City of Los Angeles does not discriminate on the basis of disability and, upon request, will provide reasonable accommodation to ensure equal access to its programs, services
+                        and activities.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-</div>
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js" integrity="sha512-k2GFCTbp9rQU412BStrcD/rlwv1PYec9SNrkbQlo6RZCf75l6KcC3UwDY8H5n5hl4v77IDtIPwOk9Dqjs/mMBQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
 
 </html>
