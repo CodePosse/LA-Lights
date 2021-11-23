@@ -5,3 +5,5 @@ Disallow: /src/
 Disallow: /css/
 Disallow: /js/
 Disallow: /img/
+
+Sitemap: https://labsl.ddns.me/sitemap.xml
