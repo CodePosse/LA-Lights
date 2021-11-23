@@ -1,4 +1,5 @@
 User-agent: *
+Allow: /
 Disallow: /pdf/
 Disallow: /src/
 Disallow: /css/
