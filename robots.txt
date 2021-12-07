@@ -6,4 +6,4 @@ Disallow: /css/
 Disallow: /js/
 Disallow: /img/
 
-Sitemap: https://labsl.ddns.me/sitemap.xml
+Sitemap: https://lalights.lacity.org/sitemap.xml
