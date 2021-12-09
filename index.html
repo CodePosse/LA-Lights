@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="" />
+    <meta name="description" content="LA Bureau of Street Lighting" />
     <meta name="author" content="Tim Hunold, Chad Tsubaki" />
     <meta name="generator" content="Visual Studio Code" />
     <title>LA Bureau of Street Lighting</title>
@@ -82,15 +82,18 @@
     </style>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-P2RR5NB9FW"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2RR5NB9FW"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'G-P2RR5NB9FW');
-</script>
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-P2RR5NB9FW');
+    </script>
 </head>
 
 <body>
@@ -127,7 +130,7 @@
                 <header class="py-3 mb-4 row">
                     <nav class="navbar navbar-expand-lg navbar-dark">
                         <div class="container-fluid px-0">
-                            <a class="navbar-brand" href="/"><img src="/img/LALights_LOGO-2021GLOW.png" alt="LA Lights logo" />
+                            <a class="navbar-brand" href="/"><img src="/img/LALights_LOGO-2021GLOW.png" alt="LA Lights logo" role="img" />
                                 <span class="invisible">Home Page</span></a>
                             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                               <span class="navbar-toggler-icon"></span>
@@ -285,14 +288,14 @@
             <div class="container-fluid pix">
                 <div class="container">
                     <div class="d-flex bd-highlight mb-3 jumbotron-extras">
-                        <div class="">
-                            <a href="https://twitter.com/lalight" target="_blank" class="" title="Twitter">
+                        <div>
+                            <a href="https://twitter.com/lalight" target="_blank" title="Twitter">
                                 <i class="fab fa-twitter"></i> <span class="visually-hidden">Twitter</span> </a>
-                            <a href="https://www.instagram.com/lastreetlights/" target="_blank" class="" title="Instagram">
+                            <a href="https://www.instagram.com/lastreetlights/" target="_blank" title="Instagram">
                                 <i class="fab fa-instagram"></i> <span class="visually-hidden">Instagram</span></a>
                         </div>
                         <div class="ms-auto pb-2">
-                            <a href="https://coronavirus.lacity.org/Vaccine" target="_blank" class="position-end"><img src="/img/home/End_the_Pandemic.png" alt="End The Pandemic For All" role="img"></a>
+                            <a href="https://coronavirus.lacity.org/Vaccine" target="_blank" class="position-end"><img src="/img/home/End_the_Pandemic.png" alt="End The Pandemic For All" role="img"><span class="visually-hidden">End The Pandemic</span></a>
                         </div>
                     </div>
                 </div>
@@ -366,7 +369,7 @@
 
                     </div>
                     <div class="col-md-6">
-                        <img src="/img/home/home-3.png" alt="" class="img-fluid" alt="three streetlights">
+                        <img src="/img/home/home-3.png" class="img-fluid" alt="three streetlights">
                     </div>
                 </div>
             </div>
@@ -404,7 +407,7 @@
                                 <i class="fas fa-envelope"></i> Contact Us </a>
                         </li>
                         <li class="nav-item mb-2">
-                            <a data-bs-toggle="modal" href="#ADAModal" role="button" title="" class="nav-link p-0">
+                            <a data-bs-toggle="modal" href="#ADAModal" role="button" class="nav-link p-0">
                                 <i class="fas fa-universal-access"></i> Compliance with Americans with Disabilities Act (ADA) </a>
                         </li>
                     </ul>
