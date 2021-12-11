@@ -54,7 +54,7 @@ There is a snippet of code on the site that also adds two classes to the search 
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title lablue1" id="googleTranslateLabel">Google Translate</h5>
+                <div class="h5 modal-title lablue1" id="googleTranslateLabel">Google Translate</div>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body lablue2">
@@ -71,14 +71,14 @@ There is a snippet of code on the site that also adds two classes to the search 
     }
     $("button.gsc-search-button").addClass(["btn", "btn-primary"]);
 </script>
-<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" rel="noopener"></script>
 ```
 
 Calling the modal uses standard BootStrap modal
 
 ```
 <a class="nav-link" data-bs-toggle="modal" href="#googleTranslate" role="button" aria-label="Translate">
-    <i class="fas fa-language"></i>
+    <span class="fas fa-language"></span>
     <span class="visually-hidden">Translate</span>
 </a>
 ```
