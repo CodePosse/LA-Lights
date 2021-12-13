@@ -156,6 +156,14 @@ nav ul.navbar-nav>li {
 /** DEBUGGING **/
 
 
+/* ADA error caused by G translate*/
+
+h1.title.gray {
+    color: var(--lablue2);
+    background-color: #fff;
+}
+
+
 /* lightbox */
 
 .container .gallery a img {
