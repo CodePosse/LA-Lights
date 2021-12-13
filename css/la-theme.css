@@ -159,12 +159,6 @@ nav ul.navbar-nav>li {
 
 /** DEBUGGING **/
 
-/* undefined link */
-a[href*="#"] {
-    color: white;
-    background: red;
-}
-
 /* lightbox */
 .container .gallery a img {
     width: 25%;
@@ -181,8 +175,9 @@ a[href*="#"] {
 }
 
 /* Monsido breaking changes */
-main a:active,
-main a:hover {
+main header :not(nav) a:active,
+main header :not(nav) a:hover,
+main header :not(nav) a:visited {
     color: #0a58ca;
 }
 
