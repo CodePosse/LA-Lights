@@ -153,13 +153,11 @@ nav ul.navbar-nav>li {
 }
 
 
-}
-
-}
-
 /** DEBUGGING **/
 
+
 /* lightbox */
+
 .container .gallery a img {
     width: 25%;
     height: auto;
@@ -170,15 +168,19 @@ nav ul.navbar-nav>li {
     -ms-transition: -ms-transform .15s ease;
     transition: transform .15s ease;
 }
+
 .clear {
     clear: both;
 }
 
+
 /* Monsido breaking changes */
+
 main header :not(nav) a:active,
 main header :not(nav) a:hover,
 main header :not(nav) a:visited {
     color: #0a58ca;
 }
+
 
 /* these replace semantic markup to pass mis-configured test */
