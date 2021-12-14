@@ -184,10 +184,20 @@ h1.title.gray {
 
 /* Monsido breaking changes */
 
-main header :not(nav) a:active,
-main header :not(nav) a:hover,
-main header :not(nav) a:visited {
-    color: #0a58ca;
+main header .nav-item a:active,
+main header .nav-item a,
+main header .nav-item a:visited {
+    color: #000;
+}
+
+main header .dropdown-menu .nav-item a:hover {
+    background-color: var(--lablue2);
+    color: #fff;
+}
+
+main header .dropdown-menu .nav-item a:active {
+    background-color: var(--lablue1);
+    color: #fff;
 }
 
 
