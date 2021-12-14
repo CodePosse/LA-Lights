@@ -17,7 +17,7 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="noopener" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous"
         referrerpolicy="no-referrer" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
+    <script src="/js/jquery.min.js"></script>
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2RR5NB9FW"></script>
@@ -45,9 +45,9 @@
               justify-content-end
               mb-md-0
            ">
-                    <li><a href="https://coronavirus.lacity.org/" class="nav-link px-2 text-warning" target="_blank"><span class="badge rounded-pill bg-warning text-dark px-3">!</span> Update on Coronavirus</a></li>
-                    <li><a href="https://www.lacity.org/myla311" target="_blank" class="nav-link px-2 text-white"><span class="badge rounded-pill bg-light text-dark px-2">311</span> City Services</a></li>
-                    <li><a href="https://www.lacity.org/government/popular-information/city-directory" target="_blank" class="nav-link px-2 text-white"><span class="badge rounded-pill bg-light text-dark px-2">LA</span> City Directory</a></li>
+                    <li><span class="badge rounded-pill bg-warning text-dark px-3 d-inline-flex">!</span><span class="d-inline-flex"><a href="https://coronavirus.lacity.org/" class="nav-link px-2 text-warning" target="_blank"> Update on Coronavirus</a></span></li>
+                    <li><span class="badge rounded-pill bg-light text-dark px-2 d-inline-flex">311</span><span class="d-inline-flex"><a href="https://www.lacity.org/myla311" target="_blank" class="nav-link px-2 text-white"> City Services</a></span></li>
+                    <li><span class="badge rounded-pill bg-light text-dark px-2 d-inline-flex">LA</span><span class="d-inline-flex"><a href="https://www.lacity.org/government/popular-information/city-directory" target="_blank" class="nav-link px-2 text-white"> City Directory</a></span></li>
 
                 </ul>
             </div>
@@ -58,8 +58,8 @@
             <header class="py-3 mb-4 row">
                 <nav class="navbar navbar-expand-lg navbar-light">
                     <div class="container-fluid px-0">
-                        <a class="navbar-brand" href="/"><img src="/img/LALights_LOGO-2021GLOW.png" alt="LA Lights logo" />
-                            <span class="invisible">Home Page</span></a>
+                        <a class="navbar-brand" href="/"><img src="/img/LALights_LOGO-2021GLOW.png" alt="LA Lights logo" role="presentation" />
+                            <span class="visually-hidden">Home Page</span></a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                               <span class="navbar-toggler-icon"></span>
                             </button>
@@ -245,20 +245,19 @@
                         <p><a href="/connected-infrastructure/smart_poles.html">Smartpole streetlights with small cell technology - 11/5/15</a></p>
                         <p><a href="http://money.cnn.com/2015/04/10/technology/l-a-lights/index.html" target="_blank">L.A. to Control its Streetlights with a Single Laptop - CNN - 4/10/15</a></p>
                         <div class="h3 card-title fs-4">2014</div>
-                        <p><a href="/pdf/downloads/news/AliveJune2014extract.pdf" download title="PDF file">Los Angeles City Employees Club "Alive" Newsletter - June 2014 - 6/4/14 <i class="far fa-file-pdf"></i></a></p>
+                        <p><a href="/pdf/downloads/news/AliveJune2014extract.pdf" download title="PDF file">Los Angeles City Employees Club "Alive" Newsletter - June 2014 - 6/4/14 <span class="far fa-file-pdf"></span></a></p>
                         <div class="h3 card-title fs-4">2013</div>
                         <p><a href="https://www.facebook.com/eeregov?ref=ts&fref=ts#!/eeregov/posts/10152952885415062" target="_blank">U.S. Department of Energy - Office of Energy Efficiency and Renewable Energy - 7/8/13</a></p>
                         <p><a href="http://www.thedailybeast.com/articles/2013/06/20/los-angeles-has-swapped-out-140-000-street-lights-for-highly-efficient-leds.html" target="_blank">Los Angeles Has Swapped Out 140,000 Street Lights for Highly Efficient LEDS - The Daily Beast - 6/20/13</a></p>
-                        <p><a href="/pdf/downloads/news/LEDPressRelease061813.pdf" download title="PDF file">LED Replacement Program Completion - Press Release from the Office of the Mayor - 6/18/13 <i class="far fa-file-pdf"></i></a></p>
-                        <p><a href="http://apps1.eere.energy.gov/buildings/publications/pdfs/ssl/postings_01-29-13.pdf" download title="PDF file">US Department of Energy - SSL Postings - 1/29/13 <i class="far fa-file-pdf"></i></a></p>
+                        <p><a href="/pdf/downloads/news/LEDPressRelease061813.pdf" download title="PDF file">LED Replacement Program Completion - Press Release from the Office of the Mayor - 6/18/13 <span class="far fa-file-pdf"></span></a></p>
                         <p><a href="http://www.forbes.com/sites/justingerdes/2013/01/25/los-angeles-saves-millions-with-led-street-light-deployment/" target="_blank">Forbes Magazine - Los Angeles Saves Millions With LED Street Light Deployment - 1/25/13</a></p>
                         <div class="h3 card-title fs-4">2010</div>
-                        <p><a href="/pdf/downloads/news/LEDs_Magazine_Nov_Dec_2010.pdf" download title="PDF file">LEDs Magazine - Street and Area Lighting Conference - 11/1/10 <i class="far fa-file-pdf"></i></a></p>
-                        <p><a href="/pdf/downloads/news/CityWorks%20DPW%20Publication%20Oct%202010%20partial.pdf" download title="PDF file">CityWorks -  Los Angeles City Department of Public Works - October 2010 - 10/1/10 <i class="far fa-file-pdf"></i></a></p>
-                        <p><a href="/pdf/downloads/news/SSL%20Philadelphia%20BSL%20Presentation%20Summary%202010.pdf" download title="PDF file">2010 DOE Solid State Lighting Market Introduction Workshop - BSL excerpt - 7/22/10 <i class="far fa-file-pdf"></i></a></p>
+                        <p><a href="/pdf/downloads/news/LEDs_Magazine_Nov_Dec_2010.pdf" download title="PDF file">LEDs Magazine - Street and Area Lighting Conference - 11/1/10 <span class="far fa-file-pdf"></span></a></p>
+                        <p><a href="/pdf/downloads/news/CityWorks%20DPW%20Publication%20Oct%202010%20partial.pdf" download title="PDF file">CityWorks -  Los Angeles City Department of Public Works - October 2010 - 10/1/10 <span class="far fa-file-pdf"></span></a></p>
+                        <p><a href="/pdf/downloads/news/SSL%20Philadelphia%20BSL%20Presentation%20Summary%202010.pdf" download title="PDF file">2010 DOE Solid State Lighting Market Introduction Workshop - BSL excerpt - 7/22/10 <span class="far fa-file-pdf"></span></a></p>
                         <div class="h3 card-title fs-4">2009</div>
                         <p><a href="http://ledsmagazine.com/news/6/9/22" target="_blank">LEDs Magazine - BetaLED streetlights Included in Los Angeles Retrofit Program - 9/22/09</a></p>
-                        <p><a href="/pdf/downloads/news/LEDPressRelease021609.pdf" download title="PDF file">Press Release from the Office of the Mayor - 2/16/09 <i class="far fa-file-pdf"></i></a></p>
+                        <p><a href="/pdf/downloads/news/LEDPressRelease021609.pdf" download title="PDF file">Press Release from the Office of the Mayor - 2/16/09 <span class="far fa-file-pdf"></span></a></p>
                     </div>
                 </div>
             </div>
@@ -331,7 +330,7 @@
             </div>
             <div class="col-12 text-center pt-2">
                 <p>
-                    &copy; Copyright 2021 City of Los Angeles Public Works, Bureau of Street Lighting. All rights reserved.
+                    &copy; Copyright 2021 City of Los Angeles Public Works, Bureau of Street Lighting. All rights reserved. <a href="/sitemap.html" class="text-white">Site Map</a>
                 </p>
             </div>
         </div>

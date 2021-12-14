@@ -17,7 +17,7 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="noopener" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous"
         referrerpolicy="no-referrer" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
+    <script src="/js/jquery.min.js"></script>
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2RR5NB9FW"></script>
@@ -46,14 +46,12 @@
               mb-md-0
            ">
                     <li>
-                        <a href="https://coronavirus.lacity.org/" class="nav-link px-2 text-warning" target="_blank"><span class="badge rounded-pill bg-warning text-dark px-3">!</span> Update on Coronavirus</a>
+                        <span class="badge rounded-pill bg-warning text-dark px-3 d-inline-flex">!</span><span class="d-inline-flex"><a href="https://coronavirus.lacity.org/" class="nav-link px-2 text-warning" target="_blank"> Update on Coronavirus</a></span>
                     </li>
                     <li>
-                        <a href="https://www.lacity.org/myla311" target="_blank" class="nav-link px-2 text-white"><span class="badge rounded-pill bg-light text-dark px-2">311</span> City Services</a>
+                        <span class="badge rounded-pill bg-light text-dark px-2 d-inline-flex">311</span><span class="d-inline-flex"><a href="https://www.lacity.org/myla311" target="_blank" class="nav-link px-2 text-white"> City Services</a></span>
                     </li>
-                    <li>
-                        <li><a href="https://www.lacity.org/government/popular-information/city-directory" target="_blank" class="nav-link px-2 text-white"><span class="badge rounded-pill bg-light text-dark px-2">LA</span> City Directory</a></li>
-                    </li>
+                    <li><span class="badge rounded-pill bg-light text-dark px-2 d-inline-flex">LA</span><span class="d-inline-flex"><a href="https://www.lacity.org/government/popular-information/city-directory" target="_blank" class="nav-link px-2 text-white"> City Directory</a></span></li>
 
                 </ul>
             </div>
@@ -64,8 +62,8 @@
             <header class="py-3 mb-4 row">
                 <nav class="navbar navbar-expand-lg navbar-light">
                     <div class="container-fluid px-0">
-                        <a class="navbar-brand" href="/"><img src="/img/LALights_LOGO-2021GLOW.png" alt="LA Lights logo" />
-                            <span class="invisible">Home Page</span></a>
+                        <a class="navbar-brand" href="/"><img src="/img/LALights_LOGO-2021GLOW.png" alt="LA Lights logo" role="presentation" />
+                            <span class="visually-hidden">Home Page</span></a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                               <span class="navbar-toggler-icon"></span>
                             </button>
@@ -394,7 +392,8 @@
                                         <p> The petitions below are in Adobe Acrobat PDF file format. If you do not have the Acrobat Reader, you can download the free reader at the Adobe site. This site will provide the program and instructions for installation
                                             on your computer.</p>
                                         <p> <a href="https://www.adobe.com/" target="_blank">Click here</a> to go to the Adobe site.</p>
-                                        <p><a href="/pdf/downloads/residents/218pet_e_rev.pdf" title="PDF file" download>Reballot Petition (English) <i class="far fa-file-pdf"></i></a><br><a href="/pdf/downloads/residents/218pet_s.pdf" title="PDF file" download>La Peticion Para Iniciar Un Re-voto (Espanol)  <i class="far fa-file-pdf"></i></a></p>
+                                        <p><a href="/pdf/downloads/residents/218pet_e_rev.pdf" title="PDF file" download>Reballot Petition (English) <span class="far fa-file-pdf"></span></a><br><a href="/pdf/downloads/residents/218pet_s.pdf" title="PDF file"
+                                                download>La Peticion Para Iniciar Un Re-voto (Espanol)  <span class="far fa-file-pdf"></span></a></p>
                                         <p>The reballot will be processed as a 12 to 36 month assessment, whatever was assessed for in the original defeated district.</p>
                                         <p> TIME ALLOWED FOR RECEIPT OF PETITION</p>
                                         <p> The Bureau of Street Lighting, Proposition 218 Compliance Section must be contacted in writing (FAX is acceptable) within two (2) weeks of the date on the notification letter (sent to property owners within the
@@ -504,7 +503,7 @@
             </div>
             <div class="col-12 text-center pt-2">
                 <p>
-                    &copy; Copyright 2021 City of Los Angeles Public Works, Bureau of Street Lighting. All rights reserved.
+                    &copy; Copyright 2021 City of Los Angeles Public Works, Bureau of Street Lighting. All rights reserved. <a href="/sitemap.html" class="text-white">Site Map</a>
                 </p>
             </div>
         </div>

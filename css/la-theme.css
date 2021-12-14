@@ -153,19 +153,19 @@ nav ul.navbar-nav>li {
 }
 
 
-}
-
-}
-
 /** DEBUGGING **/
 
-/* undefined link */
-a[href*="#"] {
-    color: white;
-    background: red;
+
+/* ADA error caused by G translate*/
+
+h1.title.gray {
+    color: var(--lablue2);
+    background-color: #fff;
 }
 
+
 /* lightbox */
+
 .container .gallery a img {
     width: 25%;
     height: auto;
@@ -176,14 +176,29 @@ a[href*="#"] {
     -ms-transition: -ms-transform .15s ease;
     transition: transform .15s ease;
 }
+
 .clear {
     clear: both;
 }
 
+
 /* Monsido breaking changes */
-main a:active,
-main a:hover {
-    color: #0a58ca;
+
+main header .nav-item a:active,
+main header .nav-item a,
+main header .nav-item a:visited {
+    color: #000;
 }
+
+main header .dropdown-menu .nav-item a:hover {
+    background-color: var(--lablue2);
+    color: #fff;
+}
+
+main header .dropdown-menu .nav-item a:active {
+    background-color: var(--lablue1);
+    color: #fff;
+}
+
 
 /* these replace semantic markup to pass mis-configured test */
