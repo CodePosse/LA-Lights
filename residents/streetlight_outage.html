@@ -34,6 +34,7 @@
 </head>
 
 <body>
+    <div class="jumpto"><a href="#content">Jump to content</a></div>
     <header class="pb-0 pt-2 px-0 lablue2-bg text-white">
         <div class="container-fluid">
             <div class="align-items-right">
@@ -53,7 +54,7 @@
             </div>
         </div>
     </header>
-    <main>
+    <main id="content">
         <div class="container">
             <header class="py-3 mb-4 row">
                 <nav class="navbar navbar-expand-lg navbar-light">
@@ -308,7 +309,10 @@
             </div>
             <div class="col-12 text-center pt-2">
                 <p>
-                    &copy; Copyright 2022 City of Los Angeles Public Works, Bureau of Street Lighting. All rights reserved. <a href="/sitemap.html" class="text-white">Site Map</a>
+                    &copy; Copyright
+                    <script>
+                        document.write(new Date().getFullYear())
+                    </script> City of Los Angeles Public Works, Bureau of Street Lighting. All rights reserved. <a href="/sitemap.html" class="text-white">Site Map</a>
                 </p>
             </div>
         </div>

@@ -97,6 +97,7 @@
 </head>
 
 <body>
+    <div class="jumpto"><a href="#content">Jump to content</a></div>
     <header class="pb-0 pt-2 px-0 lablue2-bg text-white">
         <div class="container-fluid">
             <div class="align-items-right">
@@ -116,7 +117,7 @@
             </div>
         </div>
     </header>
-    <main>
+    <main id="content">
         <div class="jumbotron jumbotron-fluid vidx bg-dark">
 
             <!-- This div is  intentionally blank. It creates the transparent black overlay over the video which you can modify in the CSS -->
@@ -447,7 +448,10 @@
             </div>
             <div class="col-12 text-center pt-2">
                 <p>
-                    &copy; Copyright 2022 City of Los Angeles Public Works, Bureau of Street Lighting. All rights reserved. <a href="/sitemap.html" class="text-white">Site Map</a>
+                    &copy; Copyright
+                    <script>
+                        document.write(new Date().getFullYear())
+                    </script> City of Los Angeles Public Works, Bureau of Street Lighting. All rights reserved. <a href="/sitemap.html" class="text-white">Site Map</a>
                 </p>
             </div>
         </div>
@@ -500,5 +504,7 @@
         </div>
     </div>
 </body>
+
+</html>
 
 </html>
