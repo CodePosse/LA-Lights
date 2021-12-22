@@ -34,7 +34,9 @@
 </head>
 
 <body>
-    <header class="pb-0 pt-2 px-0 lablue2-bg text-white">
+        <header class="pb-0 pt-2 px-0 lablue2-bg text-white">
+<div class="jumpto"><a href="#content">Jump to content</a></div>
+
         <div class="container-fluid">
             <div class="align-items-right">
                 <ul class="
@@ -53,7 +55,7 @@
             </div>
         </div>
     </header>
-    <main>
+    <main id="content">
         <div class="container">
             <header class="py-3 mb-4 row">
                 <nav class="navbar navbar-expand-lg navbar-light">
@@ -244,10 +246,9 @@
                         </p>
                         <hr noshade="" class="my-5">
                         <div class="h4 card-title fs-5">Smart City Conference</div>
-                        <p class="card-text">LA Lights Executive Director, Miguel Sangalang gave the International Keynote Speech at the 2021 Virtual Digital City Infrastructure Conference. The conference focus was on expanding and enhancing existing IoT ecosystems. The keynote
-                            discussed several projects undertaken by L.A. Lights, including the City’s Transitional Lighting Zones (Smart Lights), Air Quality Sensors, and partnerships with industry to realize the benefits of IoT devices to drive livability
-                            outcomes for citizens.</p>
-                        <p class="mt-5"><a href="https://smartcityla.com/" class="btn btn-primary" role="button" target="_blank">Learn More</a></p>
+                        <p class="card-text">L.A.’s first ever Smart City Street Lighting Conference showcased LA Lights’ nationally recognized programs for LED conversion and electric vehicle charging stations. It also highlighted the smart city initiatives that utilize
+                            streetlights to create a connected infrastructure and provide services such as motion activated lighting, USB charging ports, 5G network capacity and public Wi-Fi.</p>
+                        <!-- <p class="mt-5"><a href="https://smartcityla.com/" class="btn btn-primary" role="button" target="_blank">Learn More</a></p> -->
                     </div>
                     <div class="col-md-4">
                         <div class="bg-light py-2 px-3 rounded">
@@ -335,7 +336,10 @@
             </div>
             <div class="col-12 text-center pt-2">
                 <p>
-                    &copy; Copyright 2022 City of Los Angeles Public Works, Bureau of Street Lighting. All rights reserved. <a href="/sitemap.html" class="text-white">Site Map</a>
+                    &copy; Copyright
+                    <script>
+                        document.write(new Date().getFullYear())
+                    </script> City of Los Angeles Public Works, Bureau of Street Lighting. All rights reserved. <a href="/sitemap.html" class="text-white">Site Map</a>
                 </p>
             </div>
         </div>

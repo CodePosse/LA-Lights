@@ -35,6 +35,8 @@
 
 <body>
     <header class="pb-0 pt-2 px-0 lablue2-bg text-white">
+        <div class="jumpto"><a href="#content">Jump to content</a></div>
+
         <div class="container-fluid">
             <div class="align-items-right">
                 <ul class="
@@ -57,7 +59,7 @@
             </div>
         </div>
     </header>
-    <main>
+    <main id="content">
         <div class="container">
             <header class="py-3 mb-4 row">
                 <nav class="navbar navbar-expand-lg navbar-light">
@@ -255,7 +257,7 @@
                         <div class="border rounded p-md-3">
                             <div class="h2 card-title fs-4">Demand Response Program (LADWP)</div>
                             <p>In coordination with the Los Angeles Department of Water and Power (LADWP), Streetlight EV Chargers will be included in their Demand Response Program. Under this program, EV Chargers will be turned off (stop charging) to reduce
-                                the energy load at times of peak demand to relieve stress on the power grid. The program runs annually from June 15th through October 15th 2020.</p>
+                                the energy load at times of peak demand to relieve stress on the power grid. The program runs annually from June 15th through October 15th.</p>
                         </div>
                     </div>
                 </div>
@@ -330,7 +332,10 @@
             </div>
             <div class="col-12 text-center pt-2">
                 <p>
-                    &copy; Copyright 2022 City of Los Angeles Public Works, Bureau of Street Lighting. All rights reserved. <a href="/sitemap.html" class="text-white">Site Map</a>
+                    &copy; Copyright
+                    <script>
+                        document.write(new Date().getFullYear())
+                    </script> City of Los Angeles Public Works, Bureau of Street Lighting. All rights reserved. <a href="/sitemap.html" class="text-white">Site Map</a>
                 </p>
             </div>
         </div>

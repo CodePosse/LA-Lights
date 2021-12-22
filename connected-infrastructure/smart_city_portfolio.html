@@ -35,6 +35,8 @@
 
 <body>
     <header class="pb-0 pt-2 px-0 lablue2-bg text-white">
+        <div class="jumpto"><a href="#content">Jump to content</a></div>
+
         <div class="container-fluid">
             <div class="align-items-right">
                 <ul class="
@@ -53,7 +55,7 @@
             </div>
         </div>
     </header>
-    <main>
+    <main id="content">
         <div class="container">
             <header class="py-3 mb-4 row">
                 <nav class="navbar navbar-expand-lg navbar-light">
@@ -232,9 +234,6 @@
                             pLAn are achieved.
                         </p>
                         <hr noshade="" class="my-md-5">
-                        <div class="h2 card-title fs-3">LA Lights: Asset Map</div>
-                        <p class="card-text">See connected locations here</p>
-                        <p class="mt-3"><a href="https://www.arcgis.com/home/webmap/viewer.html?webmap=8fae87290bbb4889a7f5d2ce2c67675b&extent=-118.642,33.7546,-118.0556,34.3605" target="_blank" class="btn btn-primary" role="button">Learn More</a></p>
                     </div>
                     <div class="col-md-5">
                         <img src="/img/connected/westwood-night.png" alt="Street at night" class="img-fluid" role="img"></div>
@@ -266,8 +265,6 @@
                                 Multi-use Counters </li>
                             <li>
                                 Safety Cameras </li>
-                            <li>
-                                Seismic Sensors </li>
                             <li>
                                 Smart Nodes </li>
                             <li>
@@ -358,7 +355,10 @@
             </div>
             <div class="col-12 text-center pt-2">
                 <p>
-                    &copy; Copyright 2022 City of Los Angeles Public Works, Bureau of Street Lighting. All rights reserved. <a href="/sitemap.html" class="text-white">Site Map</a>
+                    &copy; Copyright
+                    <script>
+                        document.write(new Date().getFullYear())
+                    </script> City of Los Angeles Public Works, Bureau of Street Lighting. All rights reserved. <a href="/sitemap.html" class="text-white">Site Map</a>
                 </p>
             </div>
         </div>

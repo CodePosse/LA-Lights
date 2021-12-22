@@ -32,7 +32,9 @@
 </head>
 
 <body>
-    <header class="pb-0 pt-2 px-0 lablue2-bg text-white">
+        <header class="pb-0 pt-2 px-0 lablue2-bg text-white">
+<div class="jumpto"><a href="#content">Jump to content</a></div>
+
         <div class="container-fluid">
             <div class="align-items-right">
                 <ul class="
@@ -55,7 +57,7 @@
             </div>
         </div>
     </header>
-    <main>
+    <main id="content">
         <div class="container">
             <header class="py-3 mb-4 row">
                 <nav class="navbar navbar-expand-lg navbar-light">
@@ -647,7 +649,7 @@
                     <area href="/pdf/clearance/418.pdf" title="PDF file of a map" alt="PDF file of a map" download shape="rect" coords="2674, 4540, 2857, 4658">
                     <area href="/pdf/clearance/420.pdf" title="PDF file of a map" alt="PDF file of a map" download shape="rect" coords="2524, 4662, 2670, 4774">
                     </map>
-                <img src="/img/PatrolMapIndex.png" usemap="#PM_index" width="3601" height="4801" alt="Map" role="none" aria-hidden="true" alt="Grid-based map">
+                <img src="/img/PatrolMapIndex.png" usemap="#PM_index" width="3601" height="4801" role="none" aria-hidden="true" alt="Grid-based map">
 
 
             </div>
@@ -719,7 +721,10 @@
             </div>
             <div class="col-12 text-center pt-2">
                 <p>
-                    &copy; Copyright 2022 City of Los Angeles Public Works, Bureau of Street Lighting. All rights reserved. <a href="/sitemap.html" class="text-white">Site Map</a>
+                    &copy; Copyright
+                    <script>
+                        document.write(new Date().getFullYear())
+                    </script> City of Los Angeles Public Works, Bureau of Street Lighting. All rights reserved. <a href="/sitemap.html" class="text-white">Site Map</a>
                 </p>
             </div>
         </div>
