@@ -7,13 +7,17 @@
     <meta name="description" content="LA Bureau of Street Lighting" />
     <meta name="author" content="Tim Hunold, Chad Tsubaki" />
     <meta name="generator" content="Visual Studio Code" />
-    <title>Sustainability: LA Bureau of Street Lighting</title>
+    <title>LA BSL Site Map</title>
 
     <!-- Bootstrap core CSS -->
     <link href="/css/bootstrap.min.css" rel="stylesheet" />
     <!-- LA City Colors -->
     <link href="/css/la-theme.css" rel="stylesheet" />
-
+    <style>
+        ol li a:before {
+            content: attr(href);
+        }
+    </style>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="noopener" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous"
         referrerpolicy="no-referrer" />
@@ -34,6 +38,7 @@
 </head>
 
 <body>
+    <!--begin top bar-->
     <header class="pb-0 pt-2 px-0 lablue2-bg text-white">
         <div class="jumpto"><a href="#content">Jump to content</a></div>
 
@@ -59,7 +64,9 @@
             </div>
         </div>
     </header>
+    <!--end top bar-->
     <main id="content">
+        <!--begin header/nav-->
         <div class="container">
             <header class="py-3 mb-4 row">
                 <nav class="navbar navbar-expand-lg navbar-light">
@@ -219,60 +226,31 @@
                 </nav>
             </header>
         </div>
+        <!--end header/nav-->
+        <div class="container pb-5">
 
-        <div class="container">
+
             <div class="row">
                 <div class="col-12">
-                    <div class="h1 lablue1">Sustainability Practices</div>
+                    MAIN BODY CONTENT
+
                 </div>
             </div>
         </div>
-        <div class="container-fluid py-3 mt-md-3 mb-md-5">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3"><img src="/img/connected/dusk.png" alt="Street lights lit up at dusk" role="presentation" class="img-fluid w-100 h-auto"></div>
-                    <div class="col-md-5 ps-md-0 pe-md-3 py-md-0">
-                        <div class="h2 card-title fs-4">SDG Goals</div>
-                        <p>LA Lights participated in the Voluntary Local Review to highlight the work being done on the <a href="https://sdg.lamayor.org/" target="_blank">City’s Sustainable Development Goals</a>.</p>
-                        <div class="h3 card-title fs-4">Energy Management Stats</div>
-                        <p><strong>LED Streetlight Replacement Program 2021 Totals:</strong></p>
-                        <p>2021 Energy Savings 64.5%</p>
-                        <p>Energy Savings Annually $10.6M</p>
-                        <p>Energy Savings 119 GWh (gigawatt-hours)</p>
-                        <p>CO2 Reduction 70,708 MT (metric tons)</p>
-                        <div class="h2 card-title fs-4">Energy Sustainability: Solar Technology</div>
-                        <p>The City’s Street Lighting System is 98% LED technology, which yields annual energy savings 114-gigawatt hours (GWh).7 The Bureau continues to explore clean energy options and behind-the meter (BTM) or off-grid solutions that are
-                            self-sustaining and do not require grid electrification. This includes our solar lights technology, which generates energy via sunlight with energy storage through the built-in batteries, or can even connect directly back into
-                            the electric grid. </p>
-                        <div class="h3 card-title fs-5 pt-md-3">LA Lights Solar Technology options:</div>
-                        <ul>
-                            <li> Solar Streetlights</li>
-                            <li>Solar to grid installations</li>
-                        </ul>
-                        <div class="h3 card-title fs-5 pt-md-3">EV Charging Program: Clean Energy Sessions 28K </div>
-                        <p><strong>Streetlight EV Charger Program 2020 Totals:</strong></p>
-                        <p>Streetlight EV Chargers: 417 installed YTD</p>
-                    </div>
-                    <div class="col-md-4 p-md-1">
-                        <div class="border rounded p-md-3">
-                            <div class="h2 card-title fs-4">Demand Response Program (LADWP)</div>
-                            <p>In coordination with the Los Angeles Department of Water and Power (LADWP), Streetlight EV Chargers will be included in their Demand Response Program. Under this program, EV Chargers will be turned off (stop charging) to reduce
-                                the energy load at times of peak demand to relieve stress on the power grid. The program runs annually from June 15th through October 15th.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <!--begin breadcrumbs-->
         <div class="container mb-5">
-            <nav style="--bs-breadcrumb-divider: '/'; " aria-label="breadcrumb" class="border rounded-3 bg-light pt-3 pb-0 px-3 my-2">
+            <nav style="--bs-breadcrumb-divider: '/'" aria-label="breadcrumb" class="border rounded-3 bg-light pt-3 pb-0 px-3 my-2">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="/">Home</a></li>
-                    <li class="breadcrumb-item"><a href="./">Connected Infrastructure</a></li>
-                    <li class="breadcrumb-item">Sustainability</li>
+                    <li class="breadcrumb-item" aria-current="page">
+                        Contact Us
+                    </li>
                 </ol>
             </nav>
         </div>
+        <!--end breadcrumbs-->
     </main>
+    <!--begin footer-->
     <footer class="pt-5 pb-1 bg-dark text-white">
         <div class="container">
             <div class="justify-content-md-between row border-bottom pb-3 mb-3">
@@ -340,6 +318,7 @@
             </div>
         </div>
     </footer>
+    <!--end footer-->
     <script src="/js/bootstrap.min.js"></script>
 
 
