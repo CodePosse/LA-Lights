@@ -1,0 +1,23 @@
+{
+    "Version": "2022-02-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "s3:PutObject",
+                "s3:GetObject",
+                "s3:ListBucket",
+                "s3:DeleteObject",
+                "cloudfront:CreateInvalidation",
+                "cloudfront:ListInvalidations",
+                "cloudfront:GetInvalidation"
+            ],
+            "Resource": [
+                "arn:aws:s3:::lalights.lacity.org",
+                "arn:aws:s3:::lalights.lacity.org/*",
+                "arn:aws:cloudfront::<account-num>:distribution/<distribution-id>"
+            ]
+        }
+    ]
+}
